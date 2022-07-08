@@ -97,6 +97,14 @@ section{
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
+    //styling active-btn
+    .active-btn{
+        background-color: var(--color-secondary) !important;
+        transition: all .4s ease-in-out;
+        i{
+            color: var(--color-white) !important;
+        }
+    }
     //selecting control inside controls
     .control{
         padding: 1rem;
