@@ -60,6 +60,7 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
+  background-color: var(--color-primary);
 }
 
 .sec2 {
@@ -84,6 +85,28 @@ section {
   display: none;
   transform: translateY(0) scale(1);
   background-color: rgb(195, 90, 205);
+}
+
+.active {
+  display: block;
+  -webkit-animation: scaleAnim 0.5s ease-in-out;
+          animation: scaleAnim 0.5s ease-in-out;
+}
+@-webkit-keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+}
+@keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
 }
 
 .controls {
