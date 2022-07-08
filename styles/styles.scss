@@ -63,26 +63,28 @@ section{
     transform: translateY(0) scale(1);
 }
 
-//can adjust individual sections (color, etc)
-//play around with this later
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(90, 205, 119);
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(205, 174, 90);
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(195, 90, 205);
 }
 
 //controls
